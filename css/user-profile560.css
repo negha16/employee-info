@@ -1,0 +1,10 @@
+.html,body{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+.user-profile{
+  margin-bottom: 5%;
+  margin-top: 5%;
+}

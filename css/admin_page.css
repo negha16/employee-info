@@ -1,0 +1,117 @@
+body{
+    background: -webkit-linear-gradient(left, #3931af, #00c6ff);
+}
+.emp-profile{
+    padding: 3%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    border-radius: 0.5rem;
+    background: #fff;
+}
+.profile-img{
+    text-align: center;
+}
+.profile-img img{
+    width: 15rem;  
+    height: 15rem;
+
+}
+.profile-head h2{
+    color: #333;
+    margin-top:10% ;
+}
+.profile-head h2{
+    color: #0062cc;
+}
+.profile-edit-btn{
+    border: none;
+    border-radius: 1.5rem;
+    width: 70%;
+    padding: 2%;
+    font-weight: 600;
+    color: #6c757d;
+    cursor: pointer;
+}
+
+
+
+.view-data{
+  float: inherit;
+  margin: 3%;
+}
+
+
+
+table{
+  width: 70%;
+}
+td{
+  padding: 1%;
+}
+
+
+
+table{
+  text-align: center;
+}
+
+
+  @media screen and (max-width: 500px) {
+ 
+
+  table{
+    font-size: 15px;
+  }
+   /* Force table to not be like tables anymore */
+        table, thead, tbody, th, td, tr {
+            display: block;
+        }
+
+        /* Hide table headers (but not display: none;, for accessibility) */
+        thead tr {
+            position: absolute;
+            top: -9999px;
+            left: -9999px;
+        }
+      
+    tr{
+    width: 400px;
+    }
+    
+        td {
+            /* Behave  like a "row" */
+            border: none;
+            border-bottom: 1px solid #eee;
+            position: relative;
+            padding-left: 20%;
+
+        }
+
+        td:before {
+            /* Now like a table header */
+            position: absolute;
+            /* Top/left values mimic padding */
+            top: 0;
+            left: 10px;
+            width: 20%;
+            white-space: nowrap;
+        }
+
+       /*
+        Label the data
+    You could also use a data-* attribute and content for this. That way "bloats" the HTML, this way means you need to keep HTML and CSS in sync. Lea Verou has a clever way to handle with text-shadow.
+        */
+        td:nth-of-type(1):before { content: "ID";}
+        td:nth-of-type(2):before { content: "Name"; }
+        td:nth-of-type(3):before { content: "DOB"; }
+        td:nth-of-type(4):before { content: "Gender"; }
+        td:nth-of-type(5):before { content: "Address";}
+        td:nth-of-type(6):before { content: "Mobile";}
+        td:nth-of-type(7):before { content: "Address proof";}
+
+  }
+
+
+  
+
+  }

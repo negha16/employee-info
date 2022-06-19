@@ -1,0 +1,37 @@
+.html,body{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+.signup i {
+ float?: right;
+    cursor: pointer;
+}
+.signup{
+  background-image: url("images/main.jpg");
+  height: 40rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+}
+
+
+.form{
+  padding: 22px;
+  position: absolute;
+   top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.buttons{
+  margin: 3%;
+  text-align: center;
+}
+.form h3{
+	color: black;
+  text-align: center;
+}
